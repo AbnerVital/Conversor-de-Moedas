@@ -9,16 +9,16 @@ Projeto Java modularizado que realiza conversão entre moedas latino-americanas 
 ```
 
 com.conversor/
-├── Principal.java                            → Classe principal (execução)
-├── modelo/
-│   └── TaxaDeCambio.java                     → Representa a taxa de câmbio entre duas moedas
-├── servico/
-│   ├── ClienteApiMoeda.java                 → Realiza chamadas à API de câmbio
-│   └── ConversorDeMoeda.java               → Lógica de conversão entre moedas
-├── Exception/
-│   └── ErroDeMoedaException.java           → Exception personalizada para erros de API ou moedas inválidas
-└── ui/
-└── MenuDeMoedas.java                   → Interface de terminal com o usuário
+├── Principal.java                     → Classe principal (execução)
+├── modelo/                            
+│   └── TaxaDeCambio.java              → Representa a taxa de câmbio entre duas moedas
+├── servico/                           
+│   ├── ClienteApiMoeda.java           → Realiza chamadas à API de câmbio
+│   └── ConversorDeMoeda.java          → Lógica de conversão entre moedas
+├── Exception/                         
+│   └── ErroDeMoedaException.java      → Exception personalizada para erros de API ou moedas inválidas
+└── ui/                                
+└── MenuDeMoedas.java                  → Interface de terminal com o usuário
 
 ````
 

@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 public class ClienteApiMoeda {
 
-    private static final String URL_API = "https://v6.exchangerate-api.com/v6/acf61977a9ccc9947dc4f5b9/latest/";
+    private static final String URL_API = "https://v6.exchangerate-api.com/v6/SUA_CHAVE_AQUI/latest/";
 
     public TaxaDeCambio buscarTaxaParaUSD(String moedaOrigem) throws ErroDeMoedaException {
         try {
